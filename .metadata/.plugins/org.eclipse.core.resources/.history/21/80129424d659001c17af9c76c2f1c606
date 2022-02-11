@@ -1,0 +1,31 @@
+package Matrices;
+
+public class Matriz {
+
+	private int filas, columnas;
+	
+	public Matriz(int filas, int columnas) {
+		this.filas=filas;
+		this.columnas=columnas;
+	}
+	
+	public void sumar() {
+		
+	}
+	
+	public void multiplicar() {
+		
+	}
+	
+	public void inicializar() {
+		
+	}
+	
+	public int getFila() {
+		return filas;
+	}
+	
+	public int getColumna() {
+		return columnas;
+	}
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;project1.Example1&apos; to &apos;OoperacionesArrays&apos;&#x0D;&#x0A;- Original project: &apos;proyectoArrays&apos;&#x0D;&#x0A;- Original element: &apos;project1.Example1&apos;&#x0D;&#x0A;- Renamed element: &apos;project1.OoperacionesArrays&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Example1&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;project1{Example1.java[Example1" matchStrategy="1" name="OoperacionesArrays" qualified="false" references="true" similarDeclarations="false" stamp="1638546254413" textual="false" version="1.0"/>
+</session>

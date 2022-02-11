@@ -1,0 +1,61 @@
+package project1;
+
+public class OpercaionesArrays2 {
+
+	String[] cadena1={"hola", "ola", "Hola"};
+	String[] cadena2= {"zorro", "Perro","gato", "OLAF"};
+	
+	public OpercaionesArrays2() {
+		imprimir(cadena1);
+		imprimir(cadena2);
+		ordenar(cadena1);
+		imprimir(cadena1);
+		ordenar(cadena2);
+		imprimir(cadena2);
+	}
+	
+	public static void main(String[] args) {
+		OpercaionesArrays2 operaciones=new OpercaionesArrays2();
+	}
+	
+	public void ordenar(String[] cadena) {
+		String aux;
+		boolean estaOrdenado=false;
+		while(!estaOrdenado) {
+			estaOrdenado=true;
+		for(int i=0;i<cadena.length-1;i++) {
+			if (cadena[i].compareTo(cadena[i+1])>0){
+				aux=cadena[i+1];
+				cadena[i+1]=cadena[i];
+				cadena[i]=aux;
+				estaOrdenado=false;
+			}
+		}
+		}
+	}
+	
+	public void ordenarInverso(String[] cadena) {
+		String aux;
+		boolean estaOrdenado=false;
+		while(!estaOrdenado) {
+			estaOrdenado=true;
+		for(int i=0;i<cadena.length-1;i++) {
+			if (cadena[i].compareTo(cadena[i+1])<0){
+				aux=cadena[i+1];
+				cadena[i+1]=cadena[i];
+				cadena[i]=aux;
+				estaOrdenado=false;
+			}
+		}
+		}
+	}
+	
+	public void imprimir(String[] array) {
+		System.out.print("{ ");
+		for(int i = 0; i<array.length;i++) {
+			System.out.print(array[i]+" ");
+		}
+		System.out.println("}");
+	}
+
+}

@@ -1,0 +1,12 @@
+package calculadora;
+
+import constantes.Constantes;
+
+public class Lanzador {
+
+	public static void main(String[] args) {
+		Calculadora.sumar(Constantes.NUMERO_AUREO,Constantes.NUMERO_AUREO);
+		Calculadora.sumar(4, 4);
+	}
+
+}

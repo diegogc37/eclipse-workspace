@@ -1,0 +1,40 @@
+package project1;
+
+public class OperacionesArrays {
+
+	int vector[];
+	int otroVector[]= {1,2,3,4,5,6,7,8,9,10,11,12};
+	
+	public OperacionesArrays() {
+		vector = new int[10];
+		
+		System.out.println(otroVector[0]);
+		//System.out.println(otroVector[11]);
+		otroVector[0]=33;
+		System.out.println(otroVector[0]);
+		for(int i = 0; i< otroVector.length;i++) {
+			System.out.println(otroVector[i]);
+		}
+		for(int i = 0; i< otroVector.length;i++) {
+			otroVector[i]=44;
+		}
+		for(int i = 0; i< otroVector.length;i++) {
+			System.out.println(otroVector[i]);
+		}
+	}
+	
+	public static void main(String[] args) {
+		OperacionesArrays operaciones=new OperacionesArrays();
+
+	}
+
+	
+	public String toString() {
+		String retorno="";
+		for(int i = 0; i<otroVector.length;i++ ) {
+			retorno+=otroVector[i]+" ";
+		}
+		return retorno;
+	}
+	
+}

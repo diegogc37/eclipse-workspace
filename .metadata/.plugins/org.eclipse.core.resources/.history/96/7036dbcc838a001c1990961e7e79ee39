@@ -1,0 +1,16 @@
+package programacion_classes;
+
+import programacion_main_class.Vertebrado;
+
+public abstract class Mamiferos extends Vertebrado{
+
+	private final boolean esOviparo;
+	
+	public Mamifero(boolean esOviparo) {
+		this.esOviparo=esOviparo;
+	}
+	
+	public boolean esOviparo() {
+		return esOviparo();
+	}
+}

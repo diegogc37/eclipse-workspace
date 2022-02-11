@@ -1,0 +1,48 @@
+1636040637240	Delete element
+1636040696510	Delete element
+1636040700038	Delete element
+1636124298536	Encapsulate field 'codigo'
+1636124303678	Encapsulate field 'nombre'
+1636124520006	Encapsulate field 'x'
+1636124536839	Encapsulate field 'y'
+1636124545564	Encapsulate field 'matrizCeldas'
+1636124582524	Delete element
+1636124625500	Encapsulate field 'propietaria'
+1636124632302	Encapsulate field 'listaPokemon'
+1636124873703	Encapsulate field 'nombre'
+1636124883785	Encapsulate field 'mote'
+1636124909055	Encapsulate field 'nivel'
+1636124916609	Encapsulate field 'tipoPokemon'
+1636124926586	Encapsulate field 'id'
+1636124932281	Encapsulate field 'puntosSalud'
+1636124939289	Encapsulate field 'puntosAtaque'
+1636124945369	Encapsulate field 'puntosDefensa'
+1636124951257	Encapsulate field 'puntosAtaqueEspecial'
+1636124957034	Encapsulate field 'puntosDefensaEspecial'
+1636124962508	Encapsulate field 'puntosVelocidad'
+1636125110900	Encapsulate field 'altura'
+1636125117533	Encapsulate field 'peso'
+1636125184369	Encapsulate field 'tipoPokemon'
+1636125233028	Move compilation unit
+1636125249414	Encapsulate field 'tipo'
+1636125265034	Move compilation unit
+1636125269372	Delete element
+1636125359908	Encapsulate field 'esTransitable'
+1636125367147	Encapsulate field 'esPrao'
+1636125373844	Encapsulate field 'esAgua'
+1636125458799	Encapsulate field 'escenarioSuperior'
+1636125462723	Encapsulate field 'escenarioInferior'
+1636125469436	Encapsulate field 'escenarioIzquierda'
+1636125473347	Encapsulate field 'escenarioDerecha'
+1636125540138	Encapsulate field 'propietaria'
+1636125545828	Encapsulate field 'listaPokemon'
+1636125599966	Rename package 'pokemon.pokedex'
+1636125631634	Delete element
+1636125675350	Encapsulate field 'Gimnasio'
+1636125767330	Rename package 'personajespokemon'
+1636125946057	Rename package 'personajes.pokemon'
+1636126318174	Encapsulate field 'dineroActual'
+1636126322950	Encapsulate field 'pokedex'
+1636126327790	Encapsulate field 'medallero'
+1636126387597	Encapsulate field 'coleccionPokemon'
+1636126587591	Encapsulate field 'id'

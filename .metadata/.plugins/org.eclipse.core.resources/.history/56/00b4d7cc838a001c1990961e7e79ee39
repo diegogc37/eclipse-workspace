@@ -1,0 +1,33 @@
+package programacion_classes;
+
+import programacion_main_class.Vertebrado;
+
+public class Mamiferos extends Vertebrado{
+
+	private boolean esOviparo;
+	
+	/*
+	 * Metodo desplazar heredado de la clase Vertebrado
+	 */
+	public void desplazarse(int metros) {
+		
+		
+	}
+	/*
+	 * Metodo respirar heredado de la clase Vertebrado
+	 */
+	public void respirar() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	/*
+	 * Metodo emitirRuido heredado de la clase Vertebrado
+	 */
+	public void emitirRuido() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	
+}

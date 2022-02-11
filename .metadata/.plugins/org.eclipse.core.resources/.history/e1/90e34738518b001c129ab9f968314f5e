@@ -1,0 +1,39 @@
+package herencia.Zoo;
+
+import herencia.mamiferos.Elefante;
+import herencia.mamiferos.Gato;
+import herencia.mamiferos.Ornitorrinco;
+import programacion_classes.Mamifero;
+import programacion_main_class.Vertebrado;
+
+public class Zoo {
+
+	private Vertebrado[] arrayVertebrados;
+	
+	public Zoo() {
+		ejemploListaVertebrado();
+	}
+	
+	public void ejemploListaVertebrado() {
+		
+	}
+	
+	public void ejemploArrayVertebnrado() {
+		arrayVertebrados = new Vertebrado[10];
+		
+		Vertebrado unElefante = new Elefante(100,200);
+		arrayVertebrados[3]=unElefante;
+		
+		Vertebrado unOrnitorrinco = new Ornitorrinco(15,30);
+		arrayVertebrados[2]=unElefante;
+		
+		Gato g = new Gato("Pepe",10,20);
+		arrayVertebrados[1]=g;
+		break;
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

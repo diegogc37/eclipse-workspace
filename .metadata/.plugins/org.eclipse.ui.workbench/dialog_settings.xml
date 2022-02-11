@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="InstallationDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="-55"/>
+		<item key="DIALOG_Y_ORIGIN" value="-50"/>
+		<item key="DIALOG_WIDTH" value="702"/>
+		<item key="DIALOG_HEIGHT" value="728"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+	<section name="NewWizardAction">
+	</section>
+	<section name="ImportExportAction">
+		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.ui.wizards.import.FileSystem"/>
+		<item key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID" value="org.eclipse.ui.wizards.export.FileSystem"/>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+	</section>
+	<section name="FileSystemImportWizard">
+		<item key="WizardFileSystemResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID" value="false"/>
+		<item key="WizardFileSystemResourceImportPage1.STORE_CREATE_CONTAINER_STRUCTURE_ID" value="false"/>
+		<list key="WizardFileSystemResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="C:\Users\diegogc\Desktop\1º trimestre\proyectoArrays\src\project1"/>
+			<item value="C:\Users\diegogc\Desktop\1º trimestre\proyectoArrays\src\practica2"/>
+			<item value="C:\Users\diegogc\Desktop\1º trimestre\clases-estaticas\src\debug"/>
+			<item value="C:\Users\diegogc\Desktop\JuegoDeBatallas"/>
+			<item value="C:\Users\diegogc\Downloads\b09670e980ad02737ad6892c98e7e770-e0b16df28accbe40c8938fd10e6c58022b675482"/>
+			<item value="C:\Users\diegogc\Downloads\javascript-pong-master"/>
+			<item value="C:\Users\diegogc\Desktop\proyecto-pokemon-Guille"/>
+			<item value="C:\Users\diegogc\Downloads"/>
+		</list>
+	</section>
+	<section name="FileSystemExportWizard">
+		<item key="WizardFileSystemResourceExportPage1.STORE_OVERWRITE_EXISTING_FILES_ID" value="false"/>
+		<item key="WizardFileSystemResourceExportPage1.STORE_CREATE_STRUCTURE_ID" value="false"/>
+		<item key="WizardFileSystemResourceExportPage1.STORE_RESOLVE_LINKED_RESOURCES_ID" value="false"/>
+		<list key="WizardFileSystemResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="C:\Users\diegogc\Desktop"/>
+			<item value="C:\Users\diegogc\Desktop\PROGR"/>
+			<item value="C:\Users\diegogc\Desktop\1º trimestre"/>
+			<item value="F:\"/>
+		</list>
+	</section>
+	<section name="ZipFileExportWizard">
+	</section>
+</section>

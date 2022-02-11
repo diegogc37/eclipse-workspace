@@ -1,0 +1,17 @@
+package project1;
+
+public class OperacionesArrays {
+
+	int array[];
+	
+	
+	public OoperacionesArrays() {
+		
+	}
+	
+	public static void main(String[] args) {
+		OoperacionesArrays operaciones=new OoperacionesArrays();
+
+	}
+
+}

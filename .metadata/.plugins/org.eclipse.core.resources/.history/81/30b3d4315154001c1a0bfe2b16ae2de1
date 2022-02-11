@@ -1,0 +1,24 @@
+package project1;
+
+public class OperacionesArrays {
+
+	int vector[];
+	
+	
+	public OperacionesArrays() {
+		vector = new int[10];
+		int otroVector[]= {1,2,3,4,5,6,7,8,9,10,11,12};
+	}
+	
+	public static void main(String[] args) {
+		OperacionesArrays operaciones=new OperacionesArrays();
+
+	}
+
+	
+	public String toString() {
+		String retorno="";
+		return retorno;
+	}
+	
+}

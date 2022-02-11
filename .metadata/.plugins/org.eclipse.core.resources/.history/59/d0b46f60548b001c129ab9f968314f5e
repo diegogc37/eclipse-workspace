@@ -1,0 +1,9 @@
+package programacion_classes_abstract;
+
+public abstract class VaFlying extends Ave{
+
+	public VaFliying(int peso, int altura) {
+		super(peso,altura);
+	}
+	
+}

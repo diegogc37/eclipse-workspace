@@ -1,0 +1,17 @@
+package project1;
+
+public class Example1 {
+
+	int array[];
+	
+	
+	public Example1() {
+		
+	}
+	
+	public static void main(String[] args) {
+		Example1 ejemplo1=new Example1();
+
+	}
+
+}

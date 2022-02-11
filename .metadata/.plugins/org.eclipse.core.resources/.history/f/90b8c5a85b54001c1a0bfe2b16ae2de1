@@ -1,0 +1,16 @@
+package project1;
+
+public class OpercaionesArrays2 {
+
+	int[] vector;
+	String[] cadena1={"Hola", "hola", "ola"};
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	}
+	
+	public void comparar() {
+		
+	}
+
+}

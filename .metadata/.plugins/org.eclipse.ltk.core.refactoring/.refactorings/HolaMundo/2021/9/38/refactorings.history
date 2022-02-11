@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;HolaMundo.java&apos; to &apos;HolaMundo/src/programación&apos;&#x0D;&#x0A;- Original project: &apos;HolaMundo&apos;&#x0D;&#x0A;- Destination element: &apos;HolaMundo/src/programación&apos;&#x0D;&#x0A;- Original element: &apos;HolaMundo.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;programación" element1="/src&lt;{HolaMundo.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1632235632786" units="1" version="1.0"/>
+</session>

@@ -1,0 +1,14 @@
+package herencia.reptiles;
+
+import programacion_classes.Reptiles;
+
+public class Anguila extends Reptiles{
+
+	public Anguila(int peso, int numeroPatas, int altura) {
+		super(peso, numeroPatas, altura);
+		
+	}
+	
+	
+	
+}

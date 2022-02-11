@@ -1,0 +1,11 @@
+package debug;
+
+public class Debug {
+
+public static boolean encendido=true;
+
+	public static void imprimirMensaje(String mensaje) {
+		System.out.println(mensaje);
+	}
+
+}

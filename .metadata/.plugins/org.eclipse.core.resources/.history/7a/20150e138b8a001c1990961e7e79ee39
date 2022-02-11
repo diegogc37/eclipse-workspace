@@ -1,0 +1,5 @@
+package herencia.reptiles;
+
+public class Anguila extends Reptiles{
+
+}

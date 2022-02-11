@@ -1,0 +1,10 @@
+package herencia.peces;
+
+import programacion_classes_abstract.Pez;
+
+public class Atun extends Pez{
+
+	public Atun(int peso, int altura) {
+		super(peso,0,altura,7);
+	}
+}

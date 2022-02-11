@@ -1,0 +1,23 @@
+package project1;
+
+public class OperacionesArrays {
+
+	int array[];
+	
+	
+	public OperacionesArrays() {
+		
+	}
+	
+	public static void main(String[] args) {
+		OperacionesArrays operaciones=new OperacionesArrays();
+
+	}
+
+	
+	public String toString() {
+		String retorno="";
+		return retorno;
+	}
+	
+}

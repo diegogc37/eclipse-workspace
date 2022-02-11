@@ -1,0 +1,9 @@
+package practica2;
+
+public class Debug {
+
+	public static void debug() {
+		
+	}
+	
+}

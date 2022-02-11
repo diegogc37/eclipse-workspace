@@ -1,0 +1,14 @@
+package programacion_main_class;
+
+public abstract class Vertebrados {
+
+	private int peso;
+	private int numeroPatas;
+	private int altura;
+	
+	abstract public void desplazarse(int metros);
+	
+	abstract public void respirar();
+	
+	abstract public void emitirRuido();
+}

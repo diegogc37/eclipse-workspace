@@ -1,0 +1,48 @@
+package Matrices;
+
+public class Matriz {
+
+	private int filas, columnas;
+	
+	public Matriz(int filas, int columnas) {
+		this.filas=filas;
+		this.columnas=columnas;
+	}
+	
+	public Matriz sumar(Matriz matriz) {
+		if(!coincidenDimensiones(this,matrizB))
+			throw new Exception("No pueden sumarse matrices de dimensiones distintas");
+		int numeroFilas=matrizB.getNumeroFilas();
+		int numeroColumnas=matrizB.getNumeroColumnas();
+		int[][] resultadoArray = new int[numeroFilas][numeroColumnas];
+		for(int i=0;i<numeroFilas;i++)
+			for(int j=0;j<numeroColumnas;j++) 
+				resultadoArray[i][j]=matrizB.get(i, j)+this.get(i,j);
+		MatrizEnteros resultado=new MatrizEnteros(resultadoArray);
+		return resultado;
+	}
+	
+	public void multiplicar() {
+		
+	}
+	
+	public void inicializar() {
+		
+	}
+	
+	public int getFila() {
+		return filas;
+	}
+	
+	public int getColumna() {
+		return columnas;
+	}
+	
+	public boolean coincidenDimensiones(Matriz matrizA, Matriz matrizB) {
+		if(matrizB.getColumna()!=matrizA.getColumna() || matrizB.getFila()!=matrizA.getFila())
+			return false;
+		else
+			return true;
+	}
+	
+}

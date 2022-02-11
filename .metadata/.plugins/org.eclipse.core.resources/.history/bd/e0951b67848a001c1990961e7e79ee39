@@ -1,0 +1,39 @@
+package herencia.mamiferos;
+
+import programacion_classes.Mamifero;
+
+public class Elefante extends Mamifero{
+
+	/*
+	 * Metodo Constructor de la clase Elefante
+	 * 
+	 * super() Llamada a la clase padre de la que se heredan los metodos
+	 */
+	public Elefante() {
+		super(false);
+	}
+
+	/*
+	 * Metodo desplazarse heredado de la clase Vertebrado
+	 */
+	public void desplazarse(int metros) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	/*
+	 * Metodo respirar heredado de la clase Vertebrado
+	 */
+	public void respirar() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	/*
+	 * Metodo emitirRuido heredado de la clase Vertebrado
+	 */
+	public void emitirRuido() {
+		// TODO Auto-generated method stub
+		
+	}	
+}
