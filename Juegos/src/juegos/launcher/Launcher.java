@@ -3,6 +3,7 @@ package juegos.launcher;
 import java.util.*;
 import io.juegos.*;
 import juegos.wordle.*;
+import juegos.batallas.*;
 
 public class Launcher {
 	
@@ -15,6 +16,7 @@ public class Launcher {
 			System.out.println("---------------------------------------------------------");
 			System.out.println("Introduce una opcion: ");
 			System.out.println("\t 1) Wordle.");
+			System.out.println("\t 2) Batallas.");
 			System.out.println("***");
 			System.out.println("\t 0) Salir.");
 			System.out.print("> ");
@@ -23,6 +25,9 @@ public class Launcher {
 			switch(opcion) {
 			case 1:
 				Wordle w = new Wordle(seleccionarPalabra());
+				break;
+			case 2:
+				Batallas b = new Batallas();
 				break;
 			case 0:
 				System.out.println("Apagando el sistema...");
