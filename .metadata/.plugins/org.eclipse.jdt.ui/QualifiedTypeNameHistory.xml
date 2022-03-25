@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="jdk.internal.access.JavaAWTAccess"/>
     <fullyQualifiedTypeName name="sun.nio.fs.AbstractFileTypeDetector"/>
     <fullyQualifiedTypeName name="com.sun.org.apache.xml.internal.utils.res.StringArrayWrapper"/>
     <fullyQualifiedTypeName name="programacion.Actividad02004"/>
@@ -50,14 +49,15 @@
     <fullyQualifiedTypeName name="programacion.examen.clases.Estadio"/>
     <fullyQualifiedTypeName name="programacion.examen.clases.Construccion"/>
     <fullyQualifiedTypeName name="ajedrez.figures.Torre"/>
-    <fullyQualifiedTypeName name="java.util.Random"/>
     <fullyQualifiedTypeName name="Trabajador"/>
     <fullyQualifiedTypeName name="Administrativo"/>
     <fullyQualifiedTypeName name="Gruista"/>
     <fullyQualifiedTypeName name="Estribadores"/>
     <fullyQualifiedTypeName name="Estribador"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="io.juegos.Lector"/>
+    <fullyQualifiedTypeName name="io.EscritorLineas"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.util.Random"/>
 </qualifiedTypeNameHistroy>

@@ -4694,3 +4694,524 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2022-03-17 17:14:41.040 -----------------------------------------------
+eclipse.buildId=4.20.0.I20210611-1600
+java.version=16.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.ui.ide 4 4 2022-03-17 17:16:38.154
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:683)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:274)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:287)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:265)
+	at com.genuitec.eclipse.startup.dialogs.tabs.RecentTabFactory.createTabArea(RecentTabFactory.java:93)
+	at com.genuitec.eclipse.startup.dialogs.tabs.CodeFullyTabFactory.createContents(CodeFullyTabFactory.java:139)
+	at com.genuitec.eclipse.startup.dialogs.custom.SideTabFolder.createTabContent(SideTabFolder.java:455)
+	at com.genuitec.eclipse.startup.dialogs.custom.SideTabFolder.doCreateTabs(SideTabFolder.java:224)
+	at com.genuitec.eclipse.startup.dialogs.custom.SideTabFolder.createTabs(SideTabFolder.java:155)
+	at com.genuitec.eclipse.startup.dialogs.custom.AbstactSideTabDialog.createTabs(AbstactSideTabDialog.java:142)
+	at com.genuitec.eclipse.startup.dialogs.custom.CustomStartupDialog.createTabs(CustomStartupDialog.java:465)
+	at com.genuitec.eclipse.startup.dialogs.custom.CustomStartupDialog.createTabs(CustomStartupDialog.java:461)
+	at com.genuitec.eclipse.startup.dialogs.custom.AbstactSideTabDialog.createContents(AbstactSideTabDialog.java:122)
+	at org.eclipse.jface.window.Window.create(Window.java:431)
+	at org.eclipse.jface.window.Window.open(Window.java:788)
+	at com.genuitec.eclipse.startup.dialogs.custom.AbstactSideTabDialog.open(AbstactSideTabDialog.java:61)
+	at com.genuitec.eclipse.startup.dialogs.custom.CustomStartupDialog.prompt(CustomStartupDialog.java:336)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.showCustomDialog(IDEApplication.java:627)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.promptForWorkspace(IDEApplication.java:383)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.checkInstanceLocation(IDEApplication.java:285)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:142)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+
+!ENTRY org.eclipse.ui.ide 4 4 2022-03-17 17:16:38.169
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:728)
+	at com.genuitec.eclipse.webicons.IconImageDescriptor.createImage(IconImageDescriptor.java:46)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:287)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:265)
+	at com.genuitec.eclipse.startup.dialogs.custom.UIHelper.createIcon(UIHelper.java:342)
+	at com.genuitec.eclipse.startup.dialogs.tabs.WorkspaceNameControl.createBrowseOnHover(WorkspaceNameControl.java:279)
+	at com.genuitec.eclipse.startup.dialogs.tabs.WorkspaceNameLink.createNameLabel(WorkspaceNameLink.java:105)
+	at com.genuitec.eclipse.startup.dialogs.tabs.WorkspaceNameControl.<init>(WorkspaceNameControl.java:183)
+	at com.genuitec.eclipse.startup.dialogs.tabs.WorkspaceNameLink.<init>(WorkspaceNameLink.java:80)
+	at com.genuitec.eclipse.startup.dialogs.tabs.WorkspaceControl.createWorkspaceNameControl(WorkspaceControl.java:118)
+	at com.genuitec.eclipse.startup.dialogs.tabs.WorkspaceControl.createControl(WorkspaceControl.java:44)
+	at com.genuitec.eclipse.startup.dialogs.tabs.WorkspacesTabFactory.createTabArea(WorkspacesTabFactory.java:85)
+	at com.genuitec.eclipse.startup.dialogs.tabs.CodeFullyTabFactory.createContents(CodeFullyTabFactory.java:139)
+	at com.genuitec.eclipse.startup.dialogs.custom.SideTabFolder.createTabContent(SideTabFolder.java:455)
+	at com.genuitec.eclipse.startup.dialogs.custom.SideTabFolder.doCreateTabs(SideTabFolder.java:224)
+	at com.genuitec.eclipse.startup.dialogs.custom.SideTabFolder.createTabs(SideTabFolder.java:155)
+	at com.genuitec.eclipse.startup.dialogs.custom.AbstactSideTabDialog.createTabs(AbstactSideTabDialog.java:142)
+	at com.genuitec.eclipse.startup.dialogs.custom.CustomStartupDialog.createTabs(CustomStartupDialog.java:465)
+	at com.genuitec.eclipse.startup.dialogs.custom.CustomStartupDialog.createTabs(CustomStartupDialog.java:461)
+	at com.genuitec.eclipse.startup.dialogs.custom.AbstactSideTabDialog.createContents(AbstactSideTabDialog.java:122)
+	at org.eclipse.jface.window.Window.create(Window.java:431)
+	at org.eclipse.jface.window.Window.open(Window.java:788)
+	at com.genuitec.eclipse.startup.dialogs.custom.AbstactSideTabDialog.open(AbstactSideTabDialog.java:61)
+	at com.genuitec.eclipse.startup.dialogs.custom.CustomStartupDialog.prompt(CustomStartupDialog.java:336)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.showCustomDialog(IDEApplication.java:627)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.promptForWorkspace(IDEApplication.java:383)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.checkInstanceLocation(IDEApplication.java:285)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:142)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+
+!ENTRY org.eclipse.jface 2 0 2022-03-17 17:16:39.022
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-03-17 17:16:39.022
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@761a0bbd,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7a6e0f3c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-03-17 17:16:43.757
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'Z:\'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2022-03-24 16:00:32.780 -----------------------------------------------
+eclipse.buildId=4.20.0.I20210611-1600
+java.version=16.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2022-03-24 16:01:02.658
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-03-24 16:01:02.658
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@63ede2a0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@57df93c1,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-03-24 16:01:10.201
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'Z:\'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-03-24 16:01:14.303
+!MESSAGE Cannot save config file 'FileBasedConfig[Z:\.config\jgit\config]'
+!STACK 0
+java.io.IOException: Creating directories for Z:\.config\jgit failed
+	at org.eclipse.jgit.util.FileUtils.mkdirs(FileUtils.java:412)
+	at org.eclipse.jgit.internal.storage.file.LockFile.lock(LockFile.java:138)
+	at org.eclipse.jgit.storage.file.FileBasedConfig.save(FileBasedConfig.java:219)
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.saveToConfig(FS.java:740)
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.lambda$4(FS.java:426)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+!ENTRY org.eclipse.egit.ui 4 0 2022-03-24 16:01:31.320
+!MESSAGE Git repository clone failed.
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.egit.core.op.CloneOperation.run(org.eclipse.core.runtime.IProgressMonitor)" because "op" is null
+	at org.eclipse.egit.ui.internal.clone.AbstractGitCloneWizard.executeCloneOperation(AbstractGitCloneWizard.java:488)
+	at org.eclipse.egit.ui.internal.clone.AbstractGitCloneWizard.access$2(AbstractGitCloneWizard.java:481)
+	at org.eclipse.egit.ui.internal.clone.AbstractGitCloneWizard$5.run(AbstractGitCloneWizard.java:442)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.egit.ui 4 0 2022-03-24 16:13:21.523
+!MESSAGE https://github.com/ehguille/programacion-java/blob/main/src/io/EscritorLineas.java: https://github.com/ehguille/programacion-java/blob/main/src/io/EscritorLineas.java/info/refs?service=git-upload-pack not found: Not Found
+!STACK 0
+org.eclipse.jgit.api.errors.TransportException: https://github.com/ehguille/programacion-java/blob/main/src/io/EscritorLineas.java: https://github.com/ehguille/programacion-java/blob/main/src/io/EscritorLineas.java/info/refs?service=git-upload-pack not found: Not Found
+	at org.eclipse.jgit.api.LsRemoteCommand.execute(LsRemoteCommand.java:189)
+	at org.eclipse.jgit.api.LsRemoteCommand.call(LsRemoteCommand.java:128)
+	at org.eclipse.egit.core.op.ListRemoteOperation.run(ListRemoteOperation.java:116)
+	at org.eclipse.egit.ui.internal.clone.SourceBranchPage$9.run(SourceBranchPage.java:375)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Caused by: org.eclipse.jgit.errors.NoRemoteRepositoryException: https://github.com/ehguille/programacion-java/blob/main/src/io/EscritorLineas.java: https://github.com/ehguille/programacion-java/blob/main/src/io/EscritorLineas.java/info/refs?service=git-upload-pack not found: Not Found
+	at org.eclipse.jgit.transport.TransportHttp.createNotFoundException(TransportHttp.java:600)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:668)
+	at org.eclipse.jgit.transport.TransportHttp.openFetch(TransportHttp.java:465)
+	at org.eclipse.jgit.api.LsRemoteCommand.execute(LsRemoteCommand.java:167)
+	... 4 more
+!SESSION 2022-03-25 15:50:42.335 -----------------------------------------------
+eclipse.buildId=4.20.0.I20210611-1600
+java.version=16.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.ui.ide 4 4 2022-03-25 15:51:02.220
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:683)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:274)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:287)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:265)
+	at com.genuitec.eclipse.startup.dialogs.tabs.RecentTabFactory.createTabArea(RecentTabFactory.java:93)
+	at com.genuitec.eclipse.startup.dialogs.tabs.CodeFullyTabFactory.createContents(CodeFullyTabFactory.java:139)
+	at com.genuitec.eclipse.startup.dialogs.custom.SideTabFolder.createTabContent(SideTabFolder.java:455)
+	at com.genuitec.eclipse.startup.dialogs.custom.SideTabFolder.doCreateTabs(SideTabFolder.java:224)
+	at com.genuitec.eclipse.startup.dialogs.custom.SideTabFolder.createTabs(SideTabFolder.java:155)
+	at com.genuitec.eclipse.startup.dialogs.custom.AbstactSideTabDialog.createTabs(AbstactSideTabDialog.java:142)
+	at com.genuitec.eclipse.startup.dialogs.custom.CustomStartupDialog.createTabs(CustomStartupDialog.java:465)
+	at com.genuitec.eclipse.startup.dialogs.custom.CustomStartupDialog.createTabs(CustomStartupDialog.java:461)
+	at com.genuitec.eclipse.startup.dialogs.custom.AbstactSideTabDialog.createContents(AbstactSideTabDialog.java:122)
+	at org.eclipse.jface.window.Window.create(Window.java:431)
+	at org.eclipse.jface.window.Window.open(Window.java:788)
+	at com.genuitec.eclipse.startup.dialogs.custom.AbstactSideTabDialog.open(AbstactSideTabDialog.java:61)
+	at com.genuitec.eclipse.startup.dialogs.custom.CustomStartupDialog.prompt(CustomStartupDialog.java:336)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.showCustomDialog(IDEApplication.java:627)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.promptForWorkspace(IDEApplication.java:383)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.checkInstanceLocation(IDEApplication.java:285)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:142)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+
+!ENTRY org.eclipse.ui.ide 4 4 2022-03-25 15:51:02.224
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:728)
+	at com.genuitec.eclipse.webicons.IconImageDescriptor.createImage(IconImageDescriptor.java:46)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:287)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:265)
+	at com.genuitec.eclipse.startup.dialogs.custom.UIHelper.createIcon(UIHelper.java:342)
+	at com.genuitec.eclipse.startup.dialogs.tabs.WorkspaceNameControl.createBrowseOnHover(WorkspaceNameControl.java:279)
+	at com.genuitec.eclipse.startup.dialogs.tabs.WorkspaceNameLink.createNameLabel(WorkspaceNameLink.java:105)
+	at com.genuitec.eclipse.startup.dialogs.tabs.WorkspaceNameControl.<init>(WorkspaceNameControl.java:183)
+	at com.genuitec.eclipse.startup.dialogs.tabs.WorkspaceNameLink.<init>(WorkspaceNameLink.java:80)
+	at com.genuitec.eclipse.startup.dialogs.tabs.WorkspaceControl.createWorkspaceNameControl(WorkspaceControl.java:118)
+	at com.genuitec.eclipse.startup.dialogs.tabs.WorkspaceControl.createControl(WorkspaceControl.java:44)
+	at com.genuitec.eclipse.startup.dialogs.tabs.WorkspacesTabFactory.createTabArea(WorkspacesTabFactory.java:85)
+	at com.genuitec.eclipse.startup.dialogs.tabs.CodeFullyTabFactory.createContents(CodeFullyTabFactory.java:139)
+	at com.genuitec.eclipse.startup.dialogs.custom.SideTabFolder.createTabContent(SideTabFolder.java:455)
+	at com.genuitec.eclipse.startup.dialogs.custom.SideTabFolder.doCreateTabs(SideTabFolder.java:224)
+	at com.genuitec.eclipse.startup.dialogs.custom.SideTabFolder.createTabs(SideTabFolder.java:155)
+	at com.genuitec.eclipse.startup.dialogs.custom.AbstactSideTabDialog.createTabs(AbstactSideTabDialog.java:142)
+	at com.genuitec.eclipse.startup.dialogs.custom.CustomStartupDialog.createTabs(CustomStartupDialog.java:465)
+	at com.genuitec.eclipse.startup.dialogs.custom.CustomStartupDialog.createTabs(CustomStartupDialog.java:461)
+	at com.genuitec.eclipse.startup.dialogs.custom.AbstactSideTabDialog.createContents(AbstactSideTabDialog.java:122)
+	at org.eclipse.jface.window.Window.create(Window.java:431)
+	at org.eclipse.jface.window.Window.open(Window.java:788)
+	at com.genuitec.eclipse.startup.dialogs.custom.AbstactSideTabDialog.open(AbstactSideTabDialog.java:61)
+	at com.genuitec.eclipse.startup.dialogs.custom.CustomStartupDialog.prompt(CustomStartupDialog.java:336)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.showCustomDialog(IDEApplication.java:627)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.promptForWorkspace(IDEApplication.java:383)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.checkInstanceLocation(IDEApplication.java:285)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:142)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+
+!ENTRY org.eclipse.jface 2 0 2022-03-25 15:51:03.264
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-03-25 15:51:03.264
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7a6e0f3c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5184da2b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-03-25 15:51:07.578
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'Z:\'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-03-25 18:07:33.239
+!MESSAGE Z:\.config\jgit\config: No se ha encontrado la ruta de acceso de la red
+!STACK 0
+java.nio.file.FileSystemException: Z:\.config\jgit\config: No se ha encontrado la ruta de acceso de la red
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:53)
+	at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:38)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.readAttributes(WindowsFileSystemProvider.java:199)
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1843)
+	at org.eclipse.jgit.util.FileUtils.fileAttributes(FileUtils.java:710)
+	at org.eclipse.jgit.util.FS.fileAttributes(FS.java:1247)
+	at org.eclipse.jgit.internal.storage.file.FileSnapshot.isModified(FileSnapshot.java:316)
+	at org.eclipse.jgit.storage.file.FileBasedConfig.isOutdated(FileBasedConfig.java:260)
+	at org.eclipse.jgit.util.SystemReader.updateAll(SystemReader.java:388)
+	at org.eclipse.jgit.util.SystemReader.updateAll(SystemReader.java:385)
+	at org.eclipse.jgit.util.SystemReader.updateAll(SystemReader.java:385)
+	at org.eclipse.jgit.util.SystemReader.getUserConfig(SystemReader.java:316)
+	at org.eclipse.egit.core.internal.EclipseSystemReader.getUserConfig(EclipseSystemReader.java:106)
+	at org.eclipse.jgit.internal.storage.file.FileRepository.getConfig(FileRepository.java:349)
+	at org.eclipse.egit.core.CachingRepository.getConfig(CachingRepository.java:56)
+	at org.eclipse.egit.core.CachingRepository.getConfig(CachingRepository.java:1)
+	at org.eclipse.jgit.internal.storage.file.RefDirectory.getPackedRefs(RefDirectory.java:906)
+	at org.eclipse.jgit.internal.storage.file.RefDirectory.getRefs(RefDirectory.java:364)
+	at org.eclipse.jgit.lib.RefDatabase.getRefsByPrefix(RefDatabase.java:401)
+	at org.eclipse.jgit.lib.RefDatabase.getRefs(RefDatabase.java:361)
+	at org.eclipse.jgit.internal.storage.file.FileRepository.scanForRepoChanges(FileRepository.java:478)
+	at org.eclipse.egit.core.RepositoryHandle.scanForRepoChanges(RepositoryHandle.java:338)
+	at org.eclipse.egit.ui.internal.ExternalRepositoryScanner$RepositoryChangeScanner.run(ExternalRepositoryScanner.java:284)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-03-25 18:07:33.241
+!MESSAGE Z:\.config\jgit\config: No se ha encontrado la ruta de acceso de la red
+!STACK 0
+java.nio.file.FileSystemException: Z:\.config\jgit\config: No se ha encontrado la ruta de acceso de la red
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:53)
+	at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:38)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.readAttributes(WindowsFileSystemProvider.java:199)
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1843)
+	at org.eclipse.jgit.util.FileUtils.fileAttributes(FileUtils.java:710)
+	at org.eclipse.jgit.util.FS.fileAttributes(FS.java:1247)
+	at org.eclipse.jgit.internal.storage.file.FileSnapshot.<init>(FileSnapshot.java:230)
+	at org.eclipse.jgit.internal.storage.file.FileSnapshot.saveNoConfig(FileSnapshot.java:120)
+	at org.eclipse.jgit.storage.file.FileBasedConfig.load(FileBasedConfig.java:125)
+	at org.eclipse.jgit.util.SystemReader.updateAll(SystemReader.java:390)
+	at org.eclipse.jgit.util.SystemReader.updateAll(SystemReader.java:385)
+	at org.eclipse.jgit.util.SystemReader.updateAll(SystemReader.java:385)
+	at org.eclipse.jgit.util.SystemReader.getUserConfig(SystemReader.java:316)
+	at org.eclipse.egit.core.internal.EclipseSystemReader.getUserConfig(EclipseSystemReader.java:106)
+	at org.eclipse.jgit.internal.storage.file.FileRepository.getConfig(FileRepository.java:349)
+	at org.eclipse.egit.core.CachingRepository.getConfig(CachingRepository.java:56)
+	at org.eclipse.egit.core.CachingRepository.getConfig(CachingRepository.java:1)
+	at org.eclipse.jgit.internal.storage.file.RefDirectory.getPackedRefs(RefDirectory.java:906)
+	at org.eclipse.jgit.internal.storage.file.RefDirectory.getRefs(RefDirectory.java:364)
+	at org.eclipse.jgit.lib.RefDatabase.getRefsByPrefix(RefDatabase.java:401)
+	at org.eclipse.jgit.lib.RefDatabase.getRefs(RefDatabase.java:361)
+	at org.eclipse.jgit.internal.storage.file.FileRepository.scanForRepoChanges(FileRepository.java:478)
+	at org.eclipse.egit.core.RepositoryHandle.scanForRepoChanges(RepositoryHandle.java:338)
+	at org.eclipse.egit.ui.internal.ExternalRepositoryScanner$RepositoryChangeScanner.run(ExternalRepositoryScanner.java:284)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-03-25 18:07:33.244
+!MESSAGE Z:\.gitconfig: No se ha encontrado la ruta de acceso de la red
+!STACK 0
+java.nio.file.FileSystemException: Z:\.gitconfig: No se ha encontrado la ruta de acceso de la red
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:53)
+	at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:38)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.readAttributes(WindowsFileSystemProvider.java:199)
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1843)
+	at org.eclipse.jgit.util.FileUtils.fileAttributes(FileUtils.java:710)
+	at org.eclipse.jgit.util.FS.fileAttributes(FS.java:1247)
+	at org.eclipse.jgit.internal.storage.file.FileSnapshot.isModified(FileSnapshot.java:316)
+	at org.eclipse.jgit.storage.file.FileBasedConfig.isOutdated(FileBasedConfig.java:260)
+	at org.eclipse.jgit.util.SystemReader.updateAll(SystemReader.java:388)
+	at org.eclipse.jgit.util.SystemReader.getUserConfig(SystemReader.java:316)
+	at org.eclipse.egit.core.internal.EclipseSystemReader.getUserConfig(EclipseSystemReader.java:106)
+	at org.eclipse.jgit.internal.storage.file.FileRepository.getConfig(FileRepository.java:349)
+	at org.eclipse.egit.core.CachingRepository.getConfig(CachingRepository.java:56)
+	at org.eclipse.egit.core.CachingRepository.getConfig(CachingRepository.java:1)
+	at org.eclipse.jgit.internal.storage.file.RefDirectory.getPackedRefs(RefDirectory.java:906)
+	at org.eclipse.jgit.internal.storage.file.RefDirectory.getRefs(RefDirectory.java:364)
+	at org.eclipse.jgit.lib.RefDatabase.getRefsByPrefix(RefDatabase.java:401)
+	at org.eclipse.jgit.lib.RefDatabase.getRefs(RefDatabase.java:361)
+	at org.eclipse.jgit.internal.storage.file.FileRepository.scanForRepoChanges(FileRepository.java:478)
+	at org.eclipse.egit.core.RepositoryHandle.scanForRepoChanges(RepositoryHandle.java:338)
+	at org.eclipse.egit.ui.internal.ExternalRepositoryScanner$RepositoryChangeScanner.run(ExternalRepositoryScanner.java:284)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-03-25 18:07:33.245
+!MESSAGE Z:\.gitconfig: No se ha encontrado la ruta de acceso de la red
+!STACK 0
+java.nio.file.FileSystemException: Z:\.gitconfig: No se ha encontrado la ruta de acceso de la red
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:53)
+	at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:38)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.readAttributes(WindowsFileSystemProvider.java:199)
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1843)
+	at org.eclipse.jgit.util.FileUtils.fileAttributes(FileUtils.java:710)
+	at org.eclipse.jgit.util.FS.fileAttributes(FS.java:1247)
+	at org.eclipse.jgit.internal.storage.file.FileSnapshot.<init>(FileSnapshot.java:230)
+	at org.eclipse.jgit.internal.storage.file.FileSnapshot.saveNoConfig(FileSnapshot.java:120)
+	at org.eclipse.jgit.storage.file.FileBasedConfig.load(FileBasedConfig.java:125)
+	at org.eclipse.jgit.util.SystemReader.updateAll(SystemReader.java:390)
+	at org.eclipse.jgit.util.SystemReader.getUserConfig(SystemReader.java:316)
+	at org.eclipse.egit.core.internal.EclipseSystemReader.getUserConfig(EclipseSystemReader.java:106)
+	at org.eclipse.jgit.internal.storage.file.FileRepository.getConfig(FileRepository.java:349)
+	at org.eclipse.egit.core.CachingRepository.getConfig(CachingRepository.java:56)
+	at org.eclipse.egit.core.CachingRepository.getConfig(CachingRepository.java:1)
+	at org.eclipse.jgit.internal.storage.file.RefDirectory.getPackedRefs(RefDirectory.java:906)
+	at org.eclipse.jgit.internal.storage.file.RefDirectory.getRefs(RefDirectory.java:364)
+	at org.eclipse.jgit.lib.RefDatabase.getRefsByPrefix(RefDatabase.java:401)
+	at org.eclipse.jgit.lib.RefDatabase.getRefs(RefDatabase.java:361)
+	at org.eclipse.jgit.internal.storage.file.FileRepository.scanForRepoChanges(FileRepository.java:478)
+	at org.eclipse.egit.core.RepositoryHandle.scanForRepoChanges(RepositoryHandle.java:338)
+	at org.eclipse.egit.ui.internal.ExternalRepositoryScanner$RepositoryChangeScanner.run(ExternalRepositoryScanner.java:284)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-03-25 18:07:33.248
+!MESSAGE Z:\.config\jgit\config: No se ha encontrado la ruta de acceso de la red
+!STACK 0
+java.nio.file.FileSystemException: Z:\.config\jgit\config: No se ha encontrado la ruta de acceso de la red
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:53)
+	at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:38)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.readAttributes(WindowsFileSystemProvider.java:199)
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1843)
+	at org.eclipse.jgit.util.FileUtils.fileAttributes(FileUtils.java:710)
+	at org.eclipse.jgit.util.FS.fileAttributes(FS.java:1247)
+	at org.eclipse.jgit.internal.storage.file.FileSnapshot.isModified(FileSnapshot.java:316)
+	at org.eclipse.jgit.storage.file.FileBasedConfig.isOutdated(FileBasedConfig.java:260)
+	at org.eclipse.jgit.util.SystemReader.updateAll(SystemReader.java:388)
+	at org.eclipse.jgit.util.SystemReader.updateAll(SystemReader.java:385)
+	at org.eclipse.jgit.util.SystemReader.updateAll(SystemReader.java:385)
+	at org.eclipse.jgit.util.SystemReader.getUserConfig(SystemReader.java:316)
+	at org.eclipse.egit.core.internal.EclipseSystemReader.getUserConfig(EclipseSystemReader.java:106)
+	at org.eclipse.jgit.internal.storage.file.FileRepository.getConfig(FileRepository.java:349)
+	at org.eclipse.egit.core.CachingRepository.getConfig(CachingRepository.java:56)
+	at org.eclipse.egit.core.CachingRepository.getConfig(CachingRepository.java:1)
+	at org.eclipse.jgit.internal.storage.file.RefDirectory.getPackedRefs(RefDirectory.java:906)
+	at org.eclipse.jgit.internal.storage.file.RefDirectory.getRefs(RefDirectory.java:364)
+	at org.eclipse.jgit.lib.RefDatabase.getRefsByPrefix(RefDatabase.java:401)
+	at org.eclipse.jgit.lib.RefDatabase.getRefs(RefDatabase.java:361)
+	at org.eclipse.jgit.internal.storage.file.FileRepository.scanForRepoChanges(FileRepository.java:478)
+	at org.eclipse.egit.core.RepositoryHandle.scanForRepoChanges(RepositoryHandle.java:338)
+	at org.eclipse.egit.ui.internal.ExternalRepositoryScanner$RepositoryChangeScanner.run(ExternalRepositoryScanner.java:284)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-03-25 18:07:33.249
+!MESSAGE Z:\.gitconfig: No se ha encontrado la ruta de acceso de la red
+!STACK 0
+java.nio.file.FileSystemException: Z:\.gitconfig: No se ha encontrado la ruta de acceso de la red
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:53)
+	at java.base/sun.nio.fs.WindowsFileAttributeViews$Basic.readAttributes(WindowsFileAttributeViews.java:38)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.readAttributes(WindowsFileSystemProvider.java:199)
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1843)
+	at org.eclipse.jgit.util.FileUtils.fileAttributes(FileUtils.java:710)
+	at org.eclipse.jgit.util.FS.fileAttributes(FS.java:1247)
+	at org.eclipse.jgit.internal.storage.file.FileSnapshot.isModified(FileSnapshot.java:316)
+	at org.eclipse.jgit.storage.file.FileBasedConfig.isOutdated(FileBasedConfig.java:260)
+	at org.eclipse.jgit.util.SystemReader.updateAll(SystemReader.java:388)
+	at org.eclipse.jgit.util.SystemReader.getUserConfig(SystemReader.java:316)
+	at org.eclipse.egit.core.internal.EclipseSystemReader.getUserConfig(EclipseSystemReader.java:106)
+	at org.eclipse.jgit.internal.storage.file.FileRepository.getConfig(FileRepository.java:349)
+	at org.eclipse.egit.core.CachingRepository.getConfig(CachingRepository.java:56)
+	at org.eclipse.egit.core.CachingRepository.getConfig(CachingRepository.java:1)
+	at org.eclipse.jgit.internal.storage.file.RefDirectory.getPackedRefs(RefDirectory.java:906)
+	at org.eclipse.jgit.internal.storage.file.RefDirectory.getRefs(RefDirectory.java:364)
+	at org.eclipse.jgit.lib.RefDatabase.getRefsByPrefix(RefDatabase.java:401)
+	at org.eclipse.jgit.lib.RefDatabase.getRefs(RefDatabase.java:361)
+	at org.eclipse.jgit.internal.storage.file.FileRepository.scanForRepoChanges(FileRepository.java:478)
+	at org.eclipse.egit.core.RepositoryHandle.scanForRepoChanges(RepositoryHandle.java:338)
+	at org.eclipse.egit.ui.internal.ExternalRepositoryScanner$RepositoryChangeScanner.run(ExternalRepositoryScanner.java:284)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
