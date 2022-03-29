@@ -5215,3 +5215,486 @@ java.nio.file.FileSystemException: Z:\.gitconfig: No se ha encontrado la ruta de
 	at org.eclipse.egit.core.RepositoryHandle.scanForRepoChanges(RepositoryHandle.java:338)
 	at org.eclipse.egit.ui.internal.ExternalRepositoryScanner$RepositoryChangeScanner.run(ExternalRepositoryScanner.java:284)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2022-03-29 15:48:06.598 -----------------------------------------------
+eclipse.buildId=4.20.0.I20210611-1600
+java.version=16.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.ui.ide 4 4 2022-03-29 15:48:44.787
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:728)
+	at com.genuitec.eclipse.webicons.IconImageDescriptor.createImage(IconImageDescriptor.java:46)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:287)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:265)
+	at com.genuitec.eclipse.startup.dialogs.custom.UIHelper.createIcon(UIHelper.java:342)
+	at com.genuitec.eclipse.startup.dialogs.tabs.WorkspaceNameControl.createBrowseOnHover(WorkspaceNameControl.java:279)
+	at com.genuitec.eclipse.startup.dialogs.tabs.WorkspaceNameLink.createNameLabel(WorkspaceNameLink.java:105)
+	at com.genuitec.eclipse.startup.dialogs.tabs.WorkspaceNameControl.<init>(WorkspaceNameControl.java:183)
+	at com.genuitec.eclipse.startup.dialogs.tabs.WorkspaceNameLink.<init>(WorkspaceNameLink.java:80)
+	at com.genuitec.eclipse.startup.dialogs.tabs.WorkspaceControl.createWorkspaceNameControl(WorkspaceControl.java:118)
+	at com.genuitec.eclipse.startup.dialogs.tabs.WorkspaceControl.createControl(WorkspaceControl.java:44)
+	at com.genuitec.eclipse.startup.dialogs.tabs.WorkspacesTabFactory.createTabArea(WorkspacesTabFactory.java:85)
+	at com.genuitec.eclipse.startup.dialogs.tabs.CodeFullyTabFactory.createContents(CodeFullyTabFactory.java:139)
+	at com.genuitec.eclipse.startup.dialogs.custom.SideTabFolder.createTabContent(SideTabFolder.java:455)
+	at com.genuitec.eclipse.startup.dialogs.custom.SideTabFolder.doCreateTabs(SideTabFolder.java:224)
+	at com.genuitec.eclipse.startup.dialogs.custom.SideTabFolder.createTabs(SideTabFolder.java:155)
+	at com.genuitec.eclipse.startup.dialogs.custom.AbstactSideTabDialog.createTabs(AbstactSideTabDialog.java:142)
+	at com.genuitec.eclipse.startup.dialogs.custom.CustomStartupDialog.createTabs(CustomStartupDialog.java:465)
+	at com.genuitec.eclipse.startup.dialogs.custom.CustomStartupDialog.createTabs(CustomStartupDialog.java:461)
+	at com.genuitec.eclipse.startup.dialogs.custom.AbstactSideTabDialog.createContents(AbstactSideTabDialog.java:122)
+	at org.eclipse.jface.window.Window.create(Window.java:431)
+	at org.eclipse.jface.window.Window.open(Window.java:788)
+	at com.genuitec.eclipse.startup.dialogs.custom.AbstactSideTabDialog.open(AbstactSideTabDialog.java:61)
+	at com.genuitec.eclipse.startup.dialogs.custom.CustomStartupDialog.prompt(CustomStartupDialog.java:336)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.showCustomDialog(IDEApplication.java:627)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.promptForWorkspace(IDEApplication.java:383)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.checkInstanceLocation(IDEApplication.java:285)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:142)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+
+!ENTRY org.eclipse.ui.ide 4 4 2022-03-29 15:48:44.790
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:683)
+	at org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:274)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:287)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:265)
+	at com.genuitec.eclipse.startup.dialogs.tabs.RecentTabFactory.createTabArea(RecentTabFactory.java:93)
+	at com.genuitec.eclipse.startup.dialogs.tabs.CodeFullyTabFactory.createContents(CodeFullyTabFactory.java:139)
+	at com.genuitec.eclipse.startup.dialogs.custom.SideTabFolder.createTabContent(SideTabFolder.java:455)
+	at com.genuitec.eclipse.startup.dialogs.custom.SideTabFolder.doCreateTabs(SideTabFolder.java:224)
+	at com.genuitec.eclipse.startup.dialogs.custom.SideTabFolder.createTabs(SideTabFolder.java:155)
+	at com.genuitec.eclipse.startup.dialogs.custom.AbstactSideTabDialog.createTabs(AbstactSideTabDialog.java:142)
+	at com.genuitec.eclipse.startup.dialogs.custom.CustomStartupDialog.createTabs(CustomStartupDialog.java:465)
+	at com.genuitec.eclipse.startup.dialogs.custom.CustomStartupDialog.createTabs(CustomStartupDialog.java:461)
+	at com.genuitec.eclipse.startup.dialogs.custom.AbstactSideTabDialog.createContents(AbstactSideTabDialog.java:122)
+	at org.eclipse.jface.window.Window.create(Window.java:431)
+	at org.eclipse.jface.window.Window.open(Window.java:788)
+	at com.genuitec.eclipse.startup.dialogs.custom.AbstactSideTabDialog.open(AbstactSideTabDialog.java:61)
+	at com.genuitec.eclipse.startup.dialogs.custom.CustomStartupDialog.prompt(CustomStartupDialog.java:336)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.showCustomDialog(IDEApplication.java:627)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.promptForWorkspace(IDEApplication.java:383)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.checkInstanceLocation(IDEApplication.java:285)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:142)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+
+!ENTRY org.eclipse.jface 2 0 2022-03-29 15:48:45.649
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-03-29 15:48:45.649
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@57df93c1,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@72998021,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-03-29 15:48:50.960
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'Z:\'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-03-29 15:48:55.528
+!MESSAGE Cannot save config file 'FileBasedConfig[Z:\.config\jgit\config]'
+!STACK 0
+java.io.IOException: Creating directories for Z:\.config\jgit failed
+	at org.eclipse.jgit.util.FileUtils.mkdirs(FileUtils.java:412)
+	at org.eclipse.jgit.internal.storage.file.LockFile.lock(LockFile.java:138)
+	at org.eclipse.jgit.storage.file.FileBasedConfig.save(FileBasedConfig.java:219)
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.saveToConfig(FS.java:740)
+	at org.eclipse.jgit.util.FS$FileStoreAttributes.lambda$4(FS.java:426)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+!ENTRY org.eclipse.jdt.core 4 4 2022-03-29 17:08:26.208
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package juegos.wordle;
+
+import java.util.ArrayList;
+
+public class Jugador {
+	
+	private String nombre;
+	private String password;
+	private GestorFicheros gestorFicheros;
+	
+	/**
+	 * Comprueba que existe el usuario 'nombre' y que
+	 * tiene la contraseña 'password' en el fichero jugadores.dat
+	 * 
+	 * Si el usuario existe y la contraseña coincide, lanza la aplicación.
+	 * Si el usuario existe y la contraseña no coincide, vuelve a pedir la contraseña.
+	 * Si el usuario no existe, solicita un nombre, una contraseña y lo guarda en jugadores.dat
+	 * @param nombre
+	 * @param password
+	 */
+	public Jugador(String nombre, String password) throws Exception{
+		this.nombre=nombre;
+		this.password=password;
+		gestorFicheros=new GestorFicheros();
+		boolean credencialesCorrectas = comprobarJugador(nombre, password);
+		if(credencialesCorrectas==false)
+			throw new Exception("Las credenciales del usuario son incorrectas.");
+	}
+	
+	public boolean nombreCorrecto()
+	
+	public boolean comprobarJugador(String nombre, String password){
+		Jugador j = gestorFicheros.getJugador(nombre);
+		try {
+			if (j.nombre.equals(nombre) && j.password.equals(password))
+				return true;
+			else 
+				return false;
+		} catch (Exception e) {
+			System.out.println("El usuario no existe en la base de datos.");
+			return false;
+		}
+	
+	}
+	
+	public String getNombre() {
+		return this.nombre;
+	}
+	
+	public String getPassword() {
+		return this.password;
+	}
+	
+	/**
+	 * Esto guardaría un jugador en el fichero de datos.
+	 * Habrá que comprobar que el usuario no exista, que ni
+	 * el nombre ni la password estén vacíos, que ninguno de 
+	 * los dos contenga el carácter separador (#), y todo lo que
+	 * se os ocurra
+	 * @throws Exception 
+	 */
+	public void guardarJugador() throws Exception {
+		gestorFicheros.guardarJugador(this);
+	}
+	
+	public String toString() {
+		String resultado="";
+		resultado+=this.nombre+"#"+this.password;
+		return resultado;
+	}
+	
+}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3189)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:738)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3347)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1524)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:494)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1142)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:113)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.ui 4 2 2022-03-29 17:08:26.210
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3189)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:738)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3347)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1524)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:494)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1142)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:113)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2022-03-29 17:08:26.211
+!MESSAGE Error in JDT Core during reconcile
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3189)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:738)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3347)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1524)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:494)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1142)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:113)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.core 4 4 2022-03-29 17:10:24.779
+!MESSAGE Exception occurred during compilation unit conversion:
+----------------------------------- SOURCE BEGIN -------------------------------------
+package juegos.wordle;
+
+import java.util.ArrayList;
+
+public class Jugador {
+	
+	private String nombre;
+	private String password;
+	private GestorFicheros gestorFicheros;
+	
+	/**
+	 * Comprueba que existe el usuario 'nombre' y que
+	 * tiene la contraseña 'password' en el fichero jugadores.dat
+	 * 
+	 * Si el usuario existe y la contraseña coincide, lanza la aplicación.
+	 * Si el usuario existe y la contraseña no coincide, vuelve a pedir la contraseña.
+	 * Si el usuario no existe, solicita un nombre, una contraseña y lo guarda en jugadores.dat
+	 * @param nombre
+	 * @param password
+	 */
+	public Jugador(String nombre, String password) throws Exception{
+		this.nombre=nombre;
+		this.password=password;
+		gestorFicheros=new GestorFicheros();
+		boolean credencialesCorrectas = comprobarJugador(nombre, password);
+		if(credencialesCorrectas==false)
+			throw new Exception("Las credenciales del usuario son incorrectas.");
+	}
+	
+	public boolean usuarioValido(String usuario) {
+		boolean esValido=true;
+		for (int i = 0; i < usuario.length(); i++) {
+			if(usuario.charAt(i)=='#') {
+				return false;
+			}
+		}
+		return esValido;
+	}
+	
+	public boolean passwordValida()
+	
+	public boolean comprobarJugador(String nombre, String password){
+		Jugador j = gestorFicheros.getJugador(nombre);
+		try {
+			if (j.nombre.equals(nombre) && j.password.equals(password))
+				return true;
+			else 
+				return false;
+		} catch (Exception e) {
+			System.out.println("El usuario no existe en la base de datos.");
+			return false;
+		}
+	
+	}
+	
+	public String getNombre() {
+		return this.nombre;
+	}
+	
+	public String getPassword() {
+		return this.password;
+	}
+	
+	/**
+	 * Esto guardaría un jugador en el fichero de datos.
+	 * Habrá que comprobar que el usuario no exista, que ni
+	 * el nombre ni la password estén vacíos, que ninguno de 
+	 * los dos contenga el carácter separador (#), y todo lo que
+	 * se os ocurra
+	 * @throws Exception 
+	 */
+	public void guardarJugador() throws Exception {
+		gestorFicheros.guardarJugador(this);
+	}
+	
+	public String toString() {
+		String resultado="";
+		resultado+=this.nombre+"#"+this.password;
+		return resultado;
+	}
+	
+}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3189)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:738)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3347)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1524)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:494)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1142)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:113)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.ui 4 2 2022-03-29 17:10:24.781
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ui".
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3189)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:738)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3347)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1524)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:494)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1142)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:113)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2022-03-29 17:10:24.782
+!MESSAGE Error in JDT Core during reconcile
+!STACK 0
+java.lang.IllegalArgumentException
+	at org.eclipse.jdt.core.dom.ASTNode.setSourceRange(ASTNode.java:3189)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:738)
+	at org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3347)
+	at org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1524)
+	at org.eclipse.jdt.core.dom.AST.convertCompilationUnit(AST.java:494)
+	at org.eclipse.jdt.internal.core.CompilationUnit.buildStructure(CompilationUnit.java:201)
+	at org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:266)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)
+	at org.eclipse.jdt.internal.core.CompilationUnit.makeConsistent(CompilationUnit.java:1142)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:173)
+	at org.eclipse.jdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:94)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:740)
+	at org.eclipse.jdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:806)
+	at org.eclipse.jdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1319)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:131)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.access$0(JavaReconcilingStrategy.java:113)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:93)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:90)
+	at org.eclipse.jdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:157)
+	at org.eclipse.jdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:94)
+	at org.eclipse.jdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:107)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:76)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:210)
