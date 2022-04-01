@@ -51,13 +51,13 @@
     <fullyQualifiedTypeName name="Estribadores"/>
     <fullyQualifiedTypeName name="Estribador"/>
     <fullyQualifiedTypeName name="io.juegos.Lector"/>
-    <fullyQualifiedTypeName name="io.EscritorLineas"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.util.Random"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="juegos.wordle.GestorFicheros"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="io.LectorLineas"/>
     <fullyQualifiedTypeName name="juegos.wordle.RegistroRanking"/>
+    <fullyQualifiedTypeName name="io.EscritorLineas"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>
