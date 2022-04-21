@@ -1,7 +1,8 @@
 package juegos.launcher;
 
 import java.util.*;
-import io.juegos.*;
+
+import io.juegos.LectorLineas;
 import juegos.wordle.*;
 import juegos.batallas.*;
 
@@ -41,8 +42,8 @@ public class Launcher {
 	
 	public String seleccionarPalabra() {
 		String palabra="";
-		Lector<String> l = new Lector<>("wordleLectura/palabras5letras.dat");
-		ArrayList<String> palabrasElegir = l.leer();
+		LectorLineas l = new LectorLineas("wordleLectura/palabras5letras.dat");
+		ArrayList<String> palabrasElegir = l.leerLineas();
 		int numPos=Math.abs(r.nextInt(palabrasElegir.size()));
 		palabra=palabrasElegir.get(numPos);
 		return palabra;

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
     <fullyQualifiedTypeName name="ejercicio004.LargestPalindromeProduct"/>
     <fullyQualifiedTypeName name="sun.java2d.loops.ScaledBlit"/>
@@ -60,4 +59,5 @@
     <fullyQualifiedTypeName name="io.EscritorLineas"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="io.juegos.LectorLineas"/>
 </qualifiedTypeNameHistroy>
